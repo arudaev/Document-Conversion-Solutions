@@ -1,6 +1,6 @@
 {
   "name": "@arudaev/document-conversion-solutions",
-  "version": "1.1.130",
+  "version": "1.1.131",
   "description": "A library and API for document conversion using officegen",
   "main": "src/documentLibrary.js",
   "scripts": {
