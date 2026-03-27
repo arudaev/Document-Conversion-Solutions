@@ -17,7 +17,7 @@ Ensure the following are installed before proceeding:
 This package is available on the NPM registry. To install it, simply run the following command in your project's root directory:
 
 ```bash
-npm install @hlexnc/document-conversion-solutions --save
+npm install @arudaev/document-conversion-solutions --save
 ```
 
 ## Setting Up Your Project
@@ -35,7 +35,7 @@ Import the library into your Node.js application, configure your document struct
 Here's a simple example demonstrating the library usage:
 
 ```javascript
-const documentLibrary = require('@hlexnc/document-conversion-solutions');
+const documentLibrary = require('@arudaev/document-conversion-solutions');
 
 // Define your document structure and styles
 const inputJson = {

@@ -14,9 +14,9 @@ Document Conversion Solutions was created to provide developers and users with a
 
 To start using Document Conversion Solutions, you'll need to set up your environment, install the necessary dependencies, and explore the various components:
 
-- **Python API**: For more information, refer to the [Python API README](https://github.com/HlexNC/Document-Conversion-Solutions/blob/main/python-api/README.md).
-- **Frontend JavaScript Solutions**: Setup instructions and details can be found in the [Frontend JavaScript README](https://github.com/HlexNC/Document-Conversion-Solutions/blob/main/document-conversion/README.md).
-- **NPM Package**: Learn how to use the npm package by visiting the [Officegen API README](https://github.com/HlexNC/Document-Conversion-Solutions/blob/main/officegen-api/README.md).
+- **Python API**: For more information, refer to the [Python API README](https://github.com/arudaev/Document-Conversion-Solutions/blob/main/python-api/README.md).
+- **Frontend JavaScript Solutions**: Setup instructions and details can be found in the [Frontend JavaScript README](https://github.com/arudaev/Document-Conversion-Solutions/blob/main/document-conversion/README.md).
+- **NPM Package**: Learn how to use the npm package by visiting the [Officegen API README](https://github.com/arudaev/Document-Conversion-Solutions/blob/main/officegen-api/README.md).
 
 ## Contributing 🤝
 

@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[BUG]: "
 labels: ["bug", "needs triage"]
-assignees: HlexNC
+assignees: arudaev
 body:
   - type: markdown
     attributes:
