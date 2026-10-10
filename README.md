@@ -1,25 +1,31 @@
-# Document Conversion Solutions 📑🔄
+<p align="center">
+  <img src=".github/banner.png" alt="Document Conversion – a hand-drawn banner: a stack of pages going through a hand-cranked machine and coming out as different pages" width="100%">
+</p>
 
-Welcome to Document Conversion Solutions! This repository is a comprehensive collection of tools and libraries dedicated to the export and conversion of document formats like DOCX, PPTX, and XLSX. It encompasses Python APIs, frontend JavaScript solutions, and an npm package to cater to a wide range of document conversion needs.
+# Document Conversion Solutions
 
-## Introduction 🌐
+Three small tools for one recurring job: turning Markdown or structured text into Office documents. Built in 2023–2024 alongside my work at the University of Nicosia.
 
-Document Conversion Solutions was created to provide developers and users with an extensive set of tools for document conversion, featuring:
+| Part | What it does | Stack |
+| --- | --- | --- |
+| [`python-api/`](python-api/) | Markdown → `.docx` and `.pptx` over HTTP: `POST /markdown_to_docx/`, `POST /markdown_to_pptx/` | Python, FastAPI, Docker |
+| [`document-conversion/`](document-conversion/) | A web page that exports Markdown to Word or PowerPoint in the browser, or into a new Google Doc after you sign in with Google | Next.js, TypeScript, Google Docs API |
+| [`officegen-api/`](officegen-api/) | A Node library and Express endpoint that build `.docx` files from a JSON description – titles, subtitles, lists, bullets, footnotes | Node.js, Express, officegen |
 
-- **Python API**: A versatile backend solution for converting documents into various formats.
-- **Frontend JavaScript Solutions**: Interactive web applications for on-the-fly document conversion.
-- **NPM Package**: A ready-to-use package for integrating document conversion capabilities into your Node.js applications.
+## Running a part
 
-## Getting Started 🚀
+Each folder has its own README with setup steps:
 
-To start using Document Conversion Solutions, you'll need to set up your environment, install the necessary dependencies, and explore the various components:
+- [Python API](python-api/README.md) – a virtual environment and `uvicorn`, or the Dockerfile
+- [Web app](document-conversion/README.md) – `npm install`, then `npm run dev`
+- [Officegen library and API](officegen-api/README.md) – with request and library examples in [`examples/`](officegen-api/examples/)
 
-- **Python API**: For more information, refer to the [Python API README](https://github.com/arudaev/Document-Conversion-Solutions/blob/main/python-api/README.md).
-- **Frontend JavaScript Solutions**: Setup instructions and details can be found in the [Frontend JavaScript README](https://github.com/arudaev/Document-Conversion-Solutions/blob/main/document-conversion/README.md).
-- **NPM Package**: Learn how to use the npm package by visiting the [Officegen API README](https://github.com/arudaev/Document-Conversion-Solutions/blob/main/officegen-api/README.md).
+The repository also carries a dev container (`.devcontainer/`) if you'd rather not install anything locally.
 
-## Contributing 🤝
+## Status
 
-We welcome contributions! If you have enhancements, bug fixes, or suggestions, please feel free to submit a pull request or open an issue. Let's collaborate to make Document Conversion Solutions even better.
+Finished and not actively developed. Issues and pull requests are still welcome.
 
-Happy Document Converting! 🎉📄
+## License
+
+[MIT](LICENSE)
